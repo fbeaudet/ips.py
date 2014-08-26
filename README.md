@@ -33,3 +33,5 @@ To run the tests :
 ```bash
    ips test
 ```
+
+Note that tests passed on Windows 7 and Mac OS X 10.9.2
