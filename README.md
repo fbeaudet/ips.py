@@ -9,9 +9,9 @@ As a CLI program :
    ips apply path/to/original/file path/to/patch path/to/new/file
    ips create path/to/original/file path/to/modified path/to/new/patch
    ips help
-
-   patch files can be .ips or .gzip
 ```
+* patch files can be .ips or .gzip
+
 
 As a Python module :
 ```bash
