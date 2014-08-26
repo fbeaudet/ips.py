@@ -23,7 +23,7 @@ As a Python module :
 
 __What's an IPS patch ?__
 
-A popular format for retro game ROM hacks :
+A popular format for retro game ROM hacks
 * http://zerosoft.zophar.net/ips.php
 * http://www.romhacking.net/translations/
 
