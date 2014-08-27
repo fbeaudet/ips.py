@@ -11,7 +11,7 @@ VERSION      = '0.1'
 FILE_LIMIT   = 0x1000000 #16MB
 RECORD_LIMIT = 0x10000
 
-PATCH_ASCII  = bytes((0x50,0x41, 0x54, 0x43, 0x48))
+PATCH_ASCII  = bytes((0x50, 0x41, 0x54, 0x43, 0x48))
 EOF_ASCII    = bytes((0x45, 0x4f, 0x46))
 EOF_INTEGER  = 4542278
 
@@ -309,9 +309,7 @@ def test() :
         print(m)
     
 def main():
-    """ This function is the first called when ips.py is executed as a program.
-        It's the command-line interface.
-    """
+	""" It's the command-line interface. """
     
     if len(sys.argv) == 2 : 
 
