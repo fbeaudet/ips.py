@@ -309,7 +309,7 @@ def test() :
         print(m)
     
 def main():
-	""" It's the command-line interface. """
+    """ It's the command-line interface. """
     
     if len(sys.argv) == 2 : 
 
