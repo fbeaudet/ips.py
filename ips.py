@@ -191,7 +191,7 @@ def createPatch(originalFile, modifiedFile, patchFile):
                 # encode record offset 
                 offset = bytearray(3)
                 for x in range(3) :
-                    offset[x] = a >> (16 - x * 8)
+                    offset[x] = (a >> (16 - x * 8)) % 256
 
                 # write 3 bytes record offset to patch file
                 patch.write(offset)
