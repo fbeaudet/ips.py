@@ -110,7 +110,7 @@ def applyPatch(originalFile, patchFile, newFile):
                 os.write(new.fileno(), bytes([patch[a+7]]))
             
             #update loop address
-            a += 6 + times
+            a += 8
 
     new.close()
     return (False, 'Patch hadn\'t an EOF flag.')
