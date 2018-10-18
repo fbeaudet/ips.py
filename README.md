@@ -1,4 +1,4 @@
-ips.py v0.1 
+ips.py v0.1a
 ===========
 A Python 3 module and a CLI program to apply and create IPS patches.
 
